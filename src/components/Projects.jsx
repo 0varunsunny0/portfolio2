@@ -4,18 +4,20 @@ import { ExternalLink, Github, Trophy, BookOpen, X, ChevronLeft, ChevronRight, E
 
 const projects = [
   {
-    id: 'academic',
+    id: 'capsule',
     title: 'Digital Time Capsule',
-    description: 'Applied programming concepts and logical problem solving to build a robust foundation for modern software applications.',
+    description: 'A secure, encrypted digital vault for archiving personal memories, documents, and media with timeline visualization and time-locked access features.',
     tag: 'College Project',
     icon: <BookOpen className="text-blue-400" />,
     delay: 0.1,
-    images: [] // No images for this yet
+    images: [
+      '/projects/time-capsule.png'
+    ]
   },
   {
-    id: 'hackathon',
+    id: 'academic',
     title: 'Academic Flow',
-    description: 'Built a gamified academic management platform (Academic Flow) with features like student dashboards, avatar systems, and automated attendance tracking.',
+    description: 'A gamified academic management platform with student dashboards, avatar systems, automated attendance tracking, and performance analytics.',
     tag: 'Hackathon',
     icon: <Trophy className="text-yellow-400" />,
     delay: 0.2,
@@ -128,7 +130,7 @@ const Projects = () => {
           <div className="w-20 h-1 bg-neon-gradient mx-auto rounded-full"></div>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-7xl mx-auto">
           {projects.map((project, i) => (
             <motion.div
               key={project.id}
