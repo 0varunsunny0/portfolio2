@@ -11,11 +11,7 @@ const projects = [
     icon: <BookOpen className="text-blue-400" />,
     delay: 0.1,
     images: [
-      '/projects/digital-time-capsule/1.png',
-      '/projects/digital-time-capsule/2.png',
-      '/projects/digital-time-capsule/3.png',
-      '/projects/digital-time-capsule/4.png',
-      '/projects/digital-time-capsule/5.png'
+      'projects/time-capsule.png'
     ]
   },
   {
@@ -26,11 +22,11 @@ const projects = [
     icon: <Trophy className="text-yellow-400" />,
     delay: 0.2,
     images: [
-      '/projects/hackathon/1.jpg',
-      '/projects/hackathon/2.jpg',
-      '/projects/hackathon/3.jpg',
-      '/projects/hackathon/4.jpg',
-      '/projects/hackathon/5.jpg'
+      'projects/hackathon/1.jpg',
+      'projects/hackathon/2.jpg',
+      'projects/hackathon/3.jpg',
+      'projects/hackathon/4.jpg',
+      'projects/hackathon/5.jpg'
     ]
   }
 ];
